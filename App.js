@@ -13,10 +13,10 @@ const App = () => {
   };
 
   return (
-    <View style={{ padding: 20 }}>
-      <Text>Ingresa tu año de nacimiento:</Text>
+    <View style={{ padding: 20, justifyContent: 'center', alignContent: 'center' }}>
+      <Text>Ingresa tu año de nacimiento:</Text >
       <TextInput
-        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1, }}
         keyboardType="numeric"
         value={anoNacimiento}
         onChangeText={(text) => setAnoNacimiento(text)}
